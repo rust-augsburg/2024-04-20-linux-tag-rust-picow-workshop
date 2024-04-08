@@ -12,5 +12,4 @@ Ihr könnt einfach zuhören oder mitmachen. Technische Voraussetzungen sind ein 
 
 # **Setup**
 
-**Um sicherzustellen, dass wir im Workshop direkt loslegen können, wäre es super, wenn ihr das Setup der Entwicklungsumgebung schon vorab erledigen könntet. Vielen Dank! [Link zur Installation](./praesentation/src/setup.md)
-**.
+**Um sicherzustellen, dass wir im Workshop direkt loslegen können, wäre es super, wenn ihr das Setup der Entwicklungsumgebung schon vorab erledigen könntet. Vielen Dank! [Link zur Installation](./praesentation/src/setup.md).**
