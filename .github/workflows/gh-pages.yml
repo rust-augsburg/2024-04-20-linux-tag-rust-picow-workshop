@@ -20,6 +20,7 @@ jobs:
         mdbook-version: 'latest'
 
     - run: |
+        ls
         cd praesentation
         ls
         pwd
