@@ -22,9 +22,12 @@ jobs:
     - run: |
         echo V1
         ls
+        cp .github/book.toml praesentation/book.toml
         cd praesentation
         ls
         pwd
+        cargo install mdbook-toc
+        cargo install mdbook-pdf
         mdbook build
 
     - name: Deploy
