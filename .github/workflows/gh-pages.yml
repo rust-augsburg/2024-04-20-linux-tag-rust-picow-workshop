@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     permissions:
        contents: write
     steps:
@@ -21,6 +21,8 @@ jobs:
 
     - run: |
         cd praesentation
+        ls
+        pwd
         mdbook build
 
     - name: Deploy
