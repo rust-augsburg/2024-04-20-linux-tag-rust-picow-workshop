@@ -20,6 +20,7 @@ jobs:
         mdbook-version: 'latest'
 
     - run: |
+        echo V1
         ls
         cd praesentation
         ls
