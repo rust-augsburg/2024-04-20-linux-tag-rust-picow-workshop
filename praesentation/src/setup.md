@@ -95,7 +95,7 @@ Folge den Installationsanweisunge [`rp-rs/rp-hal` *Getting Started*](https://git
 ```sh
 rustup self update
 rustup update stable
-rustup target hinzufügen thumbv6m-none-eabi
+rustup target add thumbv6m-none-eabi
 cargo install elf2uf2-rs --locked
 cargo install probe-rs --features cli --locked
 cargo install flip-link
