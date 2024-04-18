@@ -1,0 +1,31 @@
+[book]
+title = "LinuxTag 2024: Einstieg in Embedded Rust mit dem Raspberry Pico W"
+authors = ["Tiago Manczak", "Michael Schury"]
+multilingual = false
+src = "src"
+language = "de"
+
+[output.html.playground]
+editable = true
+
+# Create PDF with toc
+#[output.html]
+#[output.pdf]
+#[output.pdf-outline]
+#like-wkhtmltopdf = true
+
+# Additional settings
+#########
+#[output.epub]
+
+#[output.pandoc.profile.pdf]
+#output-file = "output.pdf"
+#to = "latex"
+
+## PDF-specific settings
+#pdf-engine = "luatex" # engine to use to produce PDF output
+
+# TOC (can be used with: <!-- toc --> )
+#[preprocessor.toc]
+#command = "mdbook-toc"
+#renderer = ["html"]
