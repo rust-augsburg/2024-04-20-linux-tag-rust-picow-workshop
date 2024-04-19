@@ -1,5 +1,8 @@
 # Beschreibung des Hardware Aufbaus
 
+Im Workshop werden wir zwei Raspberry Pi Pico verwenden. Einer wird als 'Debug-Probe' und der andere als 'Target' verwendet (näheres unter ["Debug Probe"](./debugprobe.md)).
+Auch wenn's ohne Debug-Probe klappt, wird's auf Dauer echt lästig, weil man den Pico vor jedem Flashen immer wieder in den BOOTSEL-Modus bringen muss.
+
 ## Stückliste
 
  * Pico W (als Debug Probe)
@@ -29,7 +32,7 @@ GP26 / ADC0 Potentiometer
 
 # Steckbrettverdrahtung
 
-Für DebugPico sind die Pins entsprechend der Nummerierung auf dem Pico-Board angeordnet. 
+Für DebugPico sind die Pins entsprechend der Nummerierung auf dem Pico-Board angeordnet.
 Für die linke und rechte Seite des Steckbretts folgt die Pin-Nummerierung der jeweiligen Steckbrettnummerierung
 
 

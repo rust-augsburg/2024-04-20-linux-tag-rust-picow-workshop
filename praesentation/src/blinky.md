@@ -59,12 +59,12 @@ cargo run
 Nun `launch.json` anpassen, ersetze `rp2040-project-template` mit `rust-pico-linuxtag`:
 
 ```
-                    "programBinary": "target/thumbv6m-none-eabi/debug/rust-pico-linuxtag",
+"programBinary": "target/thumbv6m-none-eabi/debug/rust-pico-linuxtag",
 ```
 
 Den Namen des Binaries kannst Du  auch mittels Shell ermittelt: `ls -l target/thumbv6m-none-eabi/debug/`
 
-Debugger in VSCode starten mit `Ctrl-Shift-D` und zum Starten auf den grünen Pfeil klicken. 
+Debugger in VSCode starten mit `Ctrl-Shift-D` und zum Starten auf den grünen Pfeil klicken.
 
 ## Projektanalyse
 
@@ -77,8 +77,8 @@ Hier ein paar nützliche Links für die Arbeit mit dem Pico unter Rust:
 - **Board Support Package**: [RP2040 HAL Boards GitHub](https://github.com/rp-rs/rp-hal-boards/tree/main/boards/rp-pico/examples)
 - **HAL**: [rp2040-hal auf docs.rs](https://docs.rs/rp2040-hal/latest/rp2040_hal/)
 
- * Board Support Package: https://github.com/rp-rs/rp-hal-boards/tree/main/boards/rp-pico/examples
- * HAL: https://docs.rs/rp2040-hal/latest/rp2040_hal
+ * Board Support Package: <https://github.com/rp-rs/rp-hal-boards/tree/main/boards/rp-pico/examples>
+ * HAL: <https://docs.rs/rp2040-hal/latest/rp2040_hal>
 
 Um die Repos zu klonen, geh in Repo-Verzeichnis:
 

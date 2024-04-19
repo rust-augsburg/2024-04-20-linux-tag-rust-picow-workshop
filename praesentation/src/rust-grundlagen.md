@@ -48,8 +48,6 @@ Obiger Code nutzt <https://play.rust-lang.org/> zum Ausführen.
 
 [Rustlings](https://rustlings.cool/) zum Üben
 
-[crates.io](https://crates.io/)
+[crates.io](https://crates.io/) Rust official registry
 
-[docs.rs](https://docs.rs/)
-
-
+[docs.rs](https://docs.rs/) Rust official doc website

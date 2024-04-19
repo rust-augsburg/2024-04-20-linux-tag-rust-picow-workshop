@@ -10,9 +10,9 @@ Herausforderungen
 Möglichkeiten in Rust
 
  * `rp-pico`
-   * einfach(er) zu lernen
-   * Sammlung von crates
- * `embassy` 
+   * einfach(er) zu Lernen
+   * Sammlung von Crates
+ * [`embassy`](https://embassy.dev/)
    * async-basiert
-   * schwieriger zu lernen
+   * schwieriger zu Lernen
    * unterstützt Wi-Fi (und interne LED)
