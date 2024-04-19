@@ -5,7 +5,9 @@ Two Raspberry Pi Picos are used. PicoA operates as a debug probe, while PicoB se
 ## Flash debug probe (PicoA)
 
 Download the firmware **`debugprobe_on_pico.uf2`** from:
-https://github.com/raspberrypi/debugprobe/releases
+
+<https://github.com/raspberrypi/debugprobe/releases>
+
 ATTENTION: **debugprobe_on_pico.uf2** is needed !! 
 
 (Alternatively build the debugprobe from source code as described "Getting started with Pico - Build and flash picoprobe")

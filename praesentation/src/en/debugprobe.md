@@ -8,7 +8,7 @@ Download the firmware **`debugprobe_on_pico.uf2`** from:
 https://github.com/raspberrypi/debugprobe/releases
 ATTENTION: **debugprobe_on_pico.uf2** is needed !! 
 
-(Alternatively build the debugprobe from source code as described in SMTODO: Link "Getting started" Build and flash picoprobe)
+(Alternatively build the debugprobe from source code as described in [Getting started with Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) Build and flash picoprobe)
 
 Boot the Raspberry Pi PicoAwith the BOOTSEL button pressed and copy the firmware, e.g.
 
