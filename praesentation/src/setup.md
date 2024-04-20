@@ -106,7 +106,7 @@ Wenn die Installation aufgrund fehlender Abhängigkeiten fehlschlägt, die benö
 ```sh
 curl -o ~/Downloads/69-probe-rs.rules https://probe.rs/files/69-probe-rs.rules
 sudo cp ~/Downloads/69-probe-rs.rules /etc/udev/rules.d
-sudo udevadm Steuerung --reload
+sudo udevadm control --reload
 sudo udevadm trigger
 ```
 
