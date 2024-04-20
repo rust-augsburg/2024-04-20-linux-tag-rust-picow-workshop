@@ -1,0 +1,16 @@
+[book]
+title = "LinuxTag 2024: Einstieg in Embedded Rust mit dem Raspberry Pico W"
+#title = "Embedded Rust mit dem Raspberry Pico W"
+authors = ["Tiago Manczak", "Michael Schury"]
+multilingual = false
+src = "src"
+language = "de"
+
+[output.html.playground]
+editable = true
+
+# Create PDF with toc
+# [output.html]
+# [output.pdf]
+# [output.pdf-outline]
+# PDF-File: ./book/pdf-outline/output.pdf
