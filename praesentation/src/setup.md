@@ -1,8 +1,11 @@
 # Setup Allgemein
 
-**Um sicherzustellen, dass wir im Workshop direkt loslegen können, wäre es super, wenn ihr das Setup der Entwicklungsumgebung schon vorab erledigen könntet. Vielen Dank!**.
+**Um sicherzustellen, dass wir im Workshop direkt loslegen können, wäre es super, wenn ihr das Setup der Entwicklungsumgebung schon vorab erledigen könntet. Vielen Dank!**. 
 
 Im Folgenden ist die Installation unter Ubuntu 22.04 LTS exemplarisch beschrieben. Solltet ihr ein anderes Betriebssystem nutzen, lest bitte die entsprechenden Installationsanleitungen.
+
+Zur Information für Neugierige: Im Workshop werden wir zwei Raspberry Pi Pico verwenden. Einer wird als 'Debug-Probe' und der andere als 'Target' verwendet (näheres unter ["Debug Probe"](./debugprobe.md)). 
+Auch wenn's ohne Debug-Probe klappt, wird's auf Dauer echt lästig, weil man den Pico vor jedem Flashen immer wieder in den BOOTSEL-Modus bringen muss.
 
 # Setup der Entwicklungsumgebung
 
@@ -106,7 +109,7 @@ Wenn die Installation aufgrund fehlender Abhängigkeiten fehlschlägt, die benö
 ```sh
 curl -o ~/Downloads/69-probe-rs.rules https://probe.rs/files/69-probe-rs.rules
 sudo cp ~/Downloads/69-probe-rs.rules /etc/udev/rules.d
-sudo udevadm Steuerung --reload
+sudo udevadm control --reload
 sudo udevadm trigger
 ```
 

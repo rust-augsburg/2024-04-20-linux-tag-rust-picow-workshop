@@ -1,3 +1,10 @@
+# Danke
+
+Vielen Dank für die Teilnahme am Workshop und für Euer Interesse.
+Wenn's Euch gefallen hat, weiter geht's am :
+[Rust Augsburg Meetup 16.05.2024](https://www.meetup.com/rust-meetup-augsburg/events/300174327/)
+
+
 # [Einstieg in Embedded Rust mit dem Raspberry Pico WH](https://www.luga.de/static/LIT-2024/talks/einstieg_in_embedded_rust_mit_dem_raspberry_pico_wh/) für den [Augsburger Linux-Infotag 2024](https://www.luga.de/static/LIT-2024)
 
 um 10:45 im Raum  Raum F für 105min
@@ -13,3 +20,29 @@ Ihr könnt einfach zuhören oder mitmachen. Technische Voraussetzungen sind ein 
 # **Setup**
 
 **Um sicherzustellen, dass wir im Workshop direkt loslegen können, wäre es super, wenn ihr das Setup der Entwicklungsumgebung schon vorab erledigen könntet. Vielen Dank! [Link zur Installation](./praesentation/src/setup.md).**
+
+# **Beispiele**
+
+[rust-pico-linuxtag](./praesentation/src/rust-pico-linuxtag/)
+
+# **Bauen der Dokumentation**
+
+mit `mdbook` ([Setup von mdbook](./praesentation/src/setup.md#dokumentationserstellung))
+
+```sh
+cd praesentation
+```
+
+im html-format (und öffnen im Browser):
+
+```sh
+mdbook serve --open
+```
+
+als pdf:
+
+```sh
+./createpdf.sh
+# Öffnen des PDF:
+xdg-open ./book/pdf-outline/output.pdf
+```
